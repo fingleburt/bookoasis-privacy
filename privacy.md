@@ -90,4 +90,4 @@ If this policy changes, I will update this page and the date at the top.
 
 ## Contact
 
-Questions about this policy can be sent to bookoasis.support@gmail.co
+Questions about this policy can be sent to bookoasis.support@gmail.com
