@@ -82,7 +82,7 @@ The free-slot identifiers in iCloud may remain after you delete the app, so the 
 
 A purchase record stays with Apple.
 
-If you want me to delete an email you sent, write to [CONTACT EMAIL].
+If you want me to delete an email you sent, write to bookoasis.support@gmail.com
 
 ## Changes
 
@@ -90,4 +90,4 @@ If this policy changes, I will update this page and the date at the top.
 
 ## Contact
 
-Questions about this policy can be sent to [CONTACT EMAIL].
+Questions about this policy can be sent to bookoasis.support@gmail.co
