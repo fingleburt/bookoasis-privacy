@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy, BookOasis</title>
+  <meta name="description" content="Privacy policy for the BookOasis audiobook player.">
+  <style>
+    :root {
+      --bg: #f6f1e8;
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --rule: #d8d0c3;
+      --accent: #4a3f32;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #161411;
+        --ink: #efe8dc;
+        --muted: #b4ab9e;
+        --rule: #3a342c;
+        --accent: #e4d5c0;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      font-size: 1.0625rem;
+      line-height: 1.55;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 0 0 0.4rem;
+    }
+    .date {
+      color: var(--muted);
+      margin: 0 0 2rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin: 2rem 0 0.7rem;
+      padding-top: 0.4rem;
+      border-top: 1px solid var(--rule);
+    }
+    p { margin: 0 0 1rem; }
+    a {
+      color: var(--accent);
+      text-underline-offset: 0.15em;
+    }
+    .placeholder {
+      background: color-mix(in srgb, var(--accent) 16%, transparent);
+      padding: 0.05em 0.3em;
+      border-radius: 0.2em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="date">Effective 19 November 2026</p>
+
+    <p>BookOasis is an audiobook player for iPhone, iPad and Apple Watch. I make it. I'm an individual developer in the United Kingdom.</p>
+    <p>I don't run a BookOasis account system, and I don't operate a server that stores your library. Most of what the app does stays on your devices.</p>
+
+    <h2>What stays on your device</h2>
+    <p>Your audiobooks, covers, bookmarks, notes, clips, transcripts, listening stats, settings and playback position are stored on the iPhone or iPad.</p>
+    <p>If you import a book from Files, or copy one into BookOasis through the Files app, that audio stays in the app's documents folder on the device.</p>
+    <p>If you pick a cover from Photos, the image is saved with the book. The app does not keep access to the rest of your photo library.</p>
+    <p>You can transcribe a saved clip. That runs on the device. The audio is not sent to a speech server.</p>
+    <p>Server logins for Audiobookshelf and Jellyfin are stored in the Keychain on the device.</p>
+    <p>On a free copy of the app, BookOasis remembers which one Files book and which one server book used your free slots. It stores a fingerprint of the Files book and the server book's ID in the Keychain, and also in iCloud, so the same slots still apply if you reinstall. Deleting the book does not clear this.</p>
+
+    <h2>iCloud</h2>
+    <p>If you buy BookOasis Pro and turn on iCloud sync, the app copies progress, bookmarks, clips, covers, settings, collections, your Up Next queue and listening stats into your private iCloud database, under iCloud.app.bookoasis.player. Your audio files are not uploaded.</p>
+    <p>I can't read that private database. It belongs to your iCloud account.</p>
+    <p>You can turn sync off in BookOasis settings.</p>
+
+    <h2>Purchases</h2>
+    <p>BookOasis Pro is a one-time purchase through the App Store. Apple handles the payment. I don't see your card details or your Apple ID password.</p>
+
+    <h2>Media servers</h2>
+    <p>If you sign in to Audiobookshelf or Jellyfin, the app sends your server address, username and password to the server you entered. It then uses a saved token to list books, stream or download audio, fetch covers, and update listening progress on that server.</p>
+    <p>Those servers are yours, or run by whoever you chose. Their privacy rules apply to what they hold. Signing out removes the saved login from the Keychain.</p>
+
+    <h2>Looking up book details</h2>
+    <p>If you use Look Up Info, or if "Look up missing info" is on when you import a book that is missing an author or a cover, the app sends the title and author to Open Library, and to Google Books if Open Library has no match. If you accept a result, the app may also download the cover image from that source.</p>
+    <p>You can turn "Look up missing info" off in settings. You can dismiss the lookup screen if you don't want a match applied, but the search request is sent when the screen opens.</p>
+    <p>Those sites will see the search and, as with any website, your IP address. Their own privacy policies apply.</p>
+
+    <h2>Apple Watch, widgets and the lock screen</h2>
+    <p>The Watch app talks to the iPhone over Apple's WatchConnectivity. It receives the current title, chapter, playback state and sleep timer, and it can send play, skip and sleep commands. That traffic stays between your devices.</p>
+    <p>Home screen widgets and the Live Activity, lock screen and Control Centre now-playing display show the current book on your device. The widget reads a short snapshot and cover from a shared app group on the same iPhone or iPad.</p>
+    <p>Siri shortcuts and local notifications for a daily listening goal also stay on the device.</p>
+
+    <h2>What I don't do</h2>
+    <p>The app has no adverts, no tracking, no analytics package and no crash-reporting software of my own. It does not sell or share your data with advertisers.</p>
+    <p>Apple may collect diagnostics if you have chosen to share them with developers.</p>
+
+    <h2>Children</h2>
+    <p>BookOasis is not aimed at children under 13. I do not knowingly collect personal data from children.</p>
+
+    <h2>Your rights</h2>
+    <p>If you are in the UK, UK GDPR gives you rights over personal data I hold, including: access, correction, deletion, restriction, objection and portability. You can also complain to the Information Commissioner's Office at <a href="https://ico.org.uk">ico.org.uk</a>.</p>
+    <p>In practice I hold very little. Your library lives on your devices and, if you enable sync, in your own iCloud account. If you email me, I will have that correspondence.</p>
+
+    <h2>Deleting your data</h2>
+    <p>You can delete a book, its bookmarks, notes and clips in the app, and you can disconnect a media server.</p>
+    <p>Deleting the app removes the library and settings from that device, and the server logins stored in the Keychain.</p>
+    <p>If iCloud sync was on, also delete the BookOasis data from iCloud in the iOS Settings app, or the synced records will remain in your iCloud account.</p>
+    <p>The free-slot identifiers in iCloud may remain after you delete the app, so the same free slots still apply if you install BookOasis again.</p>
+    <p>A purchase record stays with Apple.</p>
+    <p>If you want me to delete an email you sent, write to <span class="placeholder">[CONTACT EMAIL]</span>.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, I will update this page and the date at the top.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about this policy can be sent to <span class="placeholder">[CONTACT EMAIL]</span>.</p>
+  </main>
+</body>
+</html>
